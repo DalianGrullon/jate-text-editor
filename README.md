@@ -1,6 +1,6 @@
 # JATE Text Editor
 ![](https://img.shields.io/github/followers/daliangrullon?style=social)
-![](https://img.shields.io/github/jate-text-editor/daliangrullon/social-network-api?style=flat-square)
+![](https://img.shields.io/github/last-commit/daliangrullon/jate-text-editor?style=flat-square)
 ![](https://img.shields.io/github/languages/top/DalianGrullon/jate-text-editor?style=flat-square)
 ![](https://img.shields.io/github/languages/count/daliangrullon/jate-text-editor?style=flat-square)
 
@@ -9,6 +9,8 @@
 ## Description
 
 JATE text editor is a full stack web application and progressive web application that allows users to practice code and save their changes. Because it is a progressive web app, users can also download the web app locally and save offline changes.
+
+[Live Application](https://salty-dusk-14160.herokuapp.com/)
 
 <br>
 
@@ -27,14 +29,10 @@ JATE text editor is a full stack web application and progressive web application
 
 ![](./images/installation-2.png)
 
-3. Once unzipped, ensure that MongoDB is installed and connected
-
-5. Run the following commands to  install all dependencies, seed the database, and start the application
+3. Once unzipped, run the following commands to  install all dependencies and start the application
 
 ```
 npm install
-
-npm run seed
 
 npm start
 ```
@@ -43,9 +41,11 @@ npm start
 
 ## Usage
 
-Social Network API can be used as the foundation for a social media web application. Below is a link to a live demo on how to actually run the application and test its routes using Insomnia
+JATE text editor allows users to save code snippets and download the web application locally, allowing for offline changes,
 
-[Live Demo of App](https://drive.google.com/file/d/1Dg0dD5vdd4wLzuHKDhS4k_bewWR3buQ3/view?usp=sharing)
+JATE is a single page web app. All changes can be done in the code editor on landing page. You can locally install the application via the "Install" button in the top right of the screen.
+
+![](./images/jate-tut.png) 
 
 <br>
 
@@ -53,8 +53,8 @@ Social Network API can be used as the foundation for a social media web applicat
 Listed below is all of the technology I used for this project:
 - Node.js
 - Express.js
-- MongoDB via Mongoose ODM
-- Moment
+- Webpack
+- Babel
 
 <br>
 
